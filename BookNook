@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<body style="background-color:#F6DDCC;">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <h1 style= "text-align:center;"> Welcome to Nook & Novels</h1>
+    <link rel="stylesheet" href="styles.css">
+	<hr style="width:100%;text-align:left;margin-left:0">
+<style>
+table, th, td {
+  border:2.5px solid black;
+  border-collapse: collapse;
+}
+	* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+img {
+  border: 5px solid #000000;
+}
+	
+</head>
+</style>
+<body>
+    <header>
+        <h2>Login to your Acount</h2>
+        <nav>
+            <ul>
+				<a href="account.html">My Account</a>
+            </ul>
+        </nav>
+    </header>
+
+<hr style="width:100%;text-align:left;margin-left:0"> 
+
+    <main>
+	
+        <section id="hero">
+            <h1 style= "text-align:center;"> Books of the Week</h1>
+			
+           <div class="row">
+  <div class="column">
+    <img src="Nothing.jpg" alt="Nothing" style="width:50%">
+  </div>
+  <div class="column">
+    <img src="Pumpkin.jpg" alt="Pumpkin" style="width:50%">
+  </div>
+  <div class="column">
+    <img src="Roses.jpg" alt="Roses" style="width:50%">
+  </div>
+</div>
+
+<div class="row">
+  <div class="column" style="background-color:#EDBB99;">
+    <h2 style= "text-align:center;"> Nothing Like the Movies</h2>
+    <p style= "text-align:center;"> If you are looking for a Young Adult Romance book this is one for you! This about a Wes who has his dream that lives next door and her name is Liz. Both were sent off to college to start their freshamn year, a tragedy struck and now Wes starts losing Liz in the process.</p>
+  </div>
+  <div class="column" style="background-color:#E59866;">
+    <h2 style= "text-align:center;"> The Pumpkin Spice Cafe</h2>
+    <p style= "text-align:center;"> Looking for a book for the fall spirt this book is your target. This is about Jeanie's aunt gift her a Pimpkin Spice Cafe in a small town, and Logan a local farmer stops by and is caught by Jeanie's attention. Now Jeanie has to choose between her lover or the Pumpkin Spice Cafe.</p>
+  </div>
+    <div class="column" style="background-color:#EDBB99;">
+    <h2 style= "text-align:center;"> A Court of Thorns and Roses</h2>
+    <p style= "text-align:center;"> If you are looking for a Young Adult Fantasy book, you are in luck. A Court of Thorns and Roses is about a young girl named Feyre who kills a whole and then a terrifying creature demands retribution. She discovers that the creature is not a beast but a immortal farie who once ruled her world.</p>
+  </div>
+</div>
+  <div class="column" style="background-color:#E59866;" style="width:20%>
+    <h2>Column 3</h2>
+    <p>Some text..</p>
+  </div>
+</div>
+		</section>
+
+
+
+
+        <section id="genres">
+            <h2>Search for any Book</h2>
+            <div class="genre-list">
+                <div class="genre">
+                    
+					<textarea id="message" required></textarea>
+                <button type="submit"><i>Search</i></button>
+					
+                    <h3>Fiction</h3>
+                    <p>Dive into captivating stories that transport you to different worlds.</p>
+                </div>
+                <div class="genre">
+                    <h3>Non-Fiction</h3>
+                    <p>Expand your knowledge with true stories and informative texts.</p>
+                </div>
+                <div class="genre">
+                    <h3>Mystery</h3>
+                    <p>Unravel secrets and solve thrilling puzzles.</p>
+                </div>
+                <div class="genre">
+                    <h3>Science Fiction</h3>
+                    <p>Explore futuristic worlds and innovative concepts.</p>
+                </div>
+                <div class="genre">
+                    <h3>Fantasy</h3>
+                    <p>Embark on epic adventures in magical realms.</p>
+                </div>
+                <div class="genre">
+                    <h3>Romance</h3>
+                    <p>Experience love stories that tug at your heartstrings.</p>
+                </div>
+            </div>
+        </section>
+		
+		
+		
+		
+		
+		<section id="library">
+			 <h1 style= "text-align:center;"> Reservations </h1>
+				<p><h3 style= "text-align:center;"> Need a book but can't order it at the moment, don't worry make a reservation down below. </h3></p>
+				<i><h2 style= "text-align:center;" ><a href="index.html">Make a Reservation</i></h2></a>
+		</section>
+
+			<hr style="width:65%;text-align:left;margin-left:0">		
+
+
+
+        <section id="about">
+            <h2 style= "text-align:center;"> About Us</h2>
+            <p style= "text-align:center;"> At Nooks & Novels, we believe that every book has the power to transport readers to new worlds, spark imagination, and inspire personal growth. Our mission is to create a welcoming space for book lovers of all ages and interests, where they can discover new titles, share their favorite reads, and connect with fellow bibliophiles. Whether you’re searching for the latest bestsellers, exploring hidden gems across various genres, or simply looking for a cozy nook to enjoy your next read, Nooks & Novels is here to enhance your literary journey. Our dedicated team is passionate about curating an engaging selection of books and fostering a community that celebrates the joy of reading. Join us as we explore the endless possibilities that literature offers!</p>
+        </section>
+
+
+		<section>
+			<h3 style= "text-align:center;"> Can't find a book on our site? Google might be able to help. </h3>
+			<a style= "text-align:center;" href= "https://books.google.com/"> Google Books </a>
+
+
+&nbsp;
+
+
+
+        <section id="contact">
+            <h2 style= "text-align:center;">Contact Us</h2>
+            <form id="contact-form">
+                <b><label for="name">Name:</label></b>
+                <input type="text" id="name" required>
+                <b><label for="email">Email:</label></b>
+                <input type="email" id="email" required>
+                <b><label for="message">Message:</label></b>
+                <textarea id="message" required></textarea>
+                <button type="submit"><i>Send Message</i></button>
+            </form>
+        </section>
+    </main>
+
+&nbsp;
+&nbsp;
+
+<section>
+<table style="width:100%">
+  <tr>
+    <th style="width:20%">Dewey Number</th>
+    <th style="width:30%">Main Category</th>
+    <th style="width:50%">Books in Category (Questions)</th>
+  </tr>
+  <tr>
+    <td style= "text-align:center;">001-099</td>
+    <td style= "text-align:center;">Fiction</td>
+    <td style= "text-align:center;"> How do we orgainze Information?</td>
+  </tr>
+    <tr>
+    <td style= "text-align:center;">100-199</td>
+    <td style= "text-align:center;">Non-Fiction</td>
+    <td style= "text-align:center;">Who am I?</td>
+  </tr>
+    <tr>
+    <td style= "text-align:center;">200-299</td>
+    <td style= "text-align:center;">Mystery</td>
+    <td style= "text-align:center;">How did we get here?</td>
+  </tr>
+    <tr>
+    <td style= "text-align:center;">300-399</td>
+    <td style= "text-align:center;">Science Fiction</td>
+    <td style= "text-align:center;">Who are the people around me?</td>
+  </tr>
+    <tr>
+    <td style= "text-align:center;">400-499</td>
+    <td style= "text-align:center;">Romance</td>
+    <td style= "text-align:center;">How can I communicate with others?</td>
+  </tr>
+    <tr>
+    <td style= "text-align:center;">500-599</td>
+    <td style= "text-align:center;">Thriller</td>
+    <td style= "text-align:center;">How can I explain the world around me?</td>
+  </tr>
+    <tr>
+    <td style= "text-align:center;">600-699</td>
+    <td style= "text-align:center;">Horror</td>
+    <td style= "text-align:center;">How can I control the world around me?</td>
+  </tr>
+    <tr>
+    <td style= "text-align:center;">700-799</td>
+    <td style= "text-align:center;">Fantasy</td>
+    <td style= "text-align:center;">How can I enjoy my free time?</td>
+  </tr>
+    <tr>
+    <td style= "text-align:center;">800-899</td>
+    <td style= "text-align:center;">History</td>
+    <td style= "text-align:center;">What was the world like in the past? What is it like now?</td>
+  </tr>
+    <tr>
+    <td style= "text-align:center;">900-999</td>
+    <td style= "text-align:center;">Children Literature</td>
+    <td style= "text-align:center;">What are the stories of our lives?</td>
+  </tr>
+</table>
+
+
+    <footer>
+        <p style= "text-align:center;"> &copy; 2024 Nook & Novels. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
